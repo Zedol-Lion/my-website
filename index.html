@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Алина Нова — графический дизайнер</title>
+    <meta
+      name="description"
+      content="Портфолио графического дизайнера Алины Нова: айдентика, постеры и упаковка."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">К содержимому</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="logo" href="#top">Алина Нова</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Открыть меню"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Основная навигация">
+          <a href="#works">Работы</a>
+          <a href="#about">О себе</a>
+          <a href="#services">Услуги</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <p class="eyebrow">Graphic designer · Almaty</p>
+          <h1 id="hero-title">
+            Делаю визуальный язык,<br />
+            который запоминают.
+          </h1>
+          <p class="hero-lead">
+            Айдентика, постеры и упаковка для брендов, которым важна ясная форма
+            и характер. Спокойно, точно, без лишнего шума.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#works">Смотреть работы</a>
+            <a class="btn btn-ghost" href="#contact">Написать</a>
+          </div>
+        </div>
+        <div class="hero-mark" aria-hidden="true">NOVA</div>
+      </section>
+
+      <section class="section" id="works" aria-labelledby="works-title">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Избранное</p>
+            <h2 id="works-title">Работы</h2>
+          </div>
+          <div class="works-grid">
+            <article class="work-card" data-project="solstice">
+              <button type="button" class="work-trigger" aria-haspopup="dialog">
+                <div class="work-visual">
+                  <img src="assets/work-solstice.svg" alt="" />
+                </div>
+                <div class="work-meta">
+                  <h3>Solstice Coffee</h3>
+                  <p class="tags"><span>брендинг</span><span>упаковка</span></p>
+                </div>
+              </button>
+            </article>
+            <article class="work-card" data-project="northline">
+              <button type="button" class="work-trigger" aria-haspopup="dialog">
+                <div class="work-visual">
+                  <img src="assets/work-northline.svg" alt="" />
+                </div>
+                <div class="work-meta">
+                  <h3>Northline Festival</h3>
+                  <p class="tags"><span>постер</span><span>айдентика</span></p>
+                </div>
+              </button>
+            </article>
+            <article class="work-card" data-project="atelier">
+              <button type="button" class="work-trigger" aria-haspopup="dialog">
+                <div class="work-visual">
+                  <img src="assets/work-atelier.svg" alt="" />
+                </div>
+                <div class="work-meta">
+                  <h3>Atelier 19</h3>
+                  <p class="tags"><span>брендинг</span><span>типографика</span></p>
+                </div>
+              </button>
+            </article>
+            <article class="work-card" data-project="orbit">
+              <button type="button" class="work-trigger" aria-haspopup="dialog">
+                <div class="work-visual">
+                  <img src="assets/work-orbit.svg" alt="" />
+                </div>
+                <div class="work-meta">
+                  <h3>Orbit Skincare</h3>
+                  <p class="tags"><span>упаковка</span><span>айдентика</span></p>
+                </div>
+              </button>
+            </article>
+            <article class="work-card" data-project="signal">
+              <button type="button" class="work-trigger" aria-haspopup="dialog">
+                <div class="work-visual">
+                  <img src="assets/work-signal.svg" alt="" />
+                </div>
+                <div class="work-meta">
+                  <h3>Signal Press</h3>
+                  <p class="tags"><span>постер</span><span>editorial</span></p>
+                </div>
+              </button>
+            </article>
+            <article class="work-card" data-project="kora">
+              <button type="button" class="work-trigger" aria-haspopup="dialog">
+                <div class="work-visual">
+                  <img src="assets/work-kora.svg" alt="" />
+                </div>
+                <div class="work-meta">
+                  <h3>Kora Studio</h3>
+                  <p class="tags"><span>брендинг</span><span>digital</span></p>
+                </div>
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="about-portrait">
+            <img src="assets/portrait.svg" alt="Портрет-плейсхолдер Алины Нова" />
+          </div>
+          <div>
+            <p class="eyebrow">О себе</p>
+            <h2 id="about-title">Собираю системы, а не разовые картинки.</h2>
+            <p>
+              Я графический дизайнер из Алматы. Восемь лет работаю с брендами
+              в культуре, еде и небольших продакт-студиях: от знака и шрифтовой
+              пары до упаковки и серии постеров.
+            </p>
+            <p>
+              Мне ближе ясная композиция, живая типографика и ограниченная
+              палитра. Если проект держится без декора — значит, форма найдена.
+            </p>
+            <ul class="facts">
+              <li><span>Город</span> Алматы</li>
+              <li><span>Опыт</span> 8 лет</li>
+              <li><span>Инструменты</span> Figma, Illustrator, Photoshop</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Что делаю</p>
+            <h2 id="services-title">Услуги</h2>
+          </div>
+          <div class="services-grid">
+            <article class="service-card">
+              <p class="service-index">01</p>
+              <h3>Айдентика</h3>
+              <p>
+                Знак, логотип, цвета, шрифты и правила использования. Система,
+                которую команда сможет вести дальше без меня.
+              </p>
+            </article>
+            <article class="service-card">
+              <p class="service-index">02</p>
+              <h3>Печатная графика</h3>
+              <p>
+                Постеры, обложки, буклеты и серии для фестивалей и изданий.
+                Макеты под реальную печать, не только под экран.
+              </p>
+            </article>
+            <article class="service-card">
+              <p class="service-index">03</p>
+              <h3>Digital</h3>
+              <p>
+                Обложки, презентации, соцсети и простые лендинги в той же
+                визуальной системе, что и офлайн-носители.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow">Связь</p>
+            <h2 id="contact-title">Давайте обсудим проект</h2>
+            <p>
+              Коротко опишите задачу, сроки и носители. Отвечаю в рабочие дни,
+              обычно в течение суток.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <a href="mailto:hello@alinanova.design">hello@alinanova.design</a>
+              </li>
+              <li>
+                <a href="https://t.me/alinanova" target="_blank" rel="noreferrer"
+                  >Telegram</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/alinanova.studio"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+          <form class="contact-form" id="contact-form" novalidate>
+            <label>
+              Имя
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label>
+              Сообщение
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Отправить</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Алина Нова</p>
+        <p class="footer-links">
+          <a href="mailto:hello@alinanova.design">Email</a>
+          <a href="https://t.me/alinanova" target="_blank" rel="noreferrer">Telegram</a>
+          <a
+            href="https://instagram.com/alinanova.studio"
+            target="_blank"
+            rel="noreferrer"
+            >Instagram</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-title">
+      <div class="lightbox-inner">
+        <button class="lightbox-close" type="button" aria-label="Закрыть">
+          Закрыть
+        </button>
+        <img id="lightbox-image" alt="" />
+        <h3 id="lightbox-title"></h3>
+        <p class="lightbox-tags" id="lightbox-tags"></p>
+        <p id="lightbox-text"></p>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
